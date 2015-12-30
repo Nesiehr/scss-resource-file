@@ -1,4 +1,4 @@
-# scss-resource-file
+# Scss Resource File
 
 Config SCSS Partials for Web Projects
 
@@ -73,13 +73,45 @@ p {
 Using partials you can import only the colors you need or all of them.
 
 ```scss
-@import 'config/color/material-color' // Imports all of the material colors
-@import 'config/color/material-color-grey' // Imports only the grey material colors
+@import 'config/color/material-color'; // Imports all of the material colors
+@import 'config/color/material-color-grey'; // Imports only the grey material colors
 ```
 
 ---
 
-Mixins
+###Mixins
 
 ---
 
+Compatability mixins make it easier to ensure cross browser compatability by generating a style with -webkit, -moz, and -ms support.
+
+Current compatability mixins:
+
+- box-sizing
+- align-items
+- border-radius
+- border-top-right-radius
+- border-top-left-radius
+- border-bottom-right-radius
+- border-bottom-left-radius
+
+Compatability mixins are simple to use:
+
+```scss
+div {
+	@include box-sizing(border-box);
+}
+```
+
+will generate
+
+```css
+div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+```
+
+Compatability mixins are, however, far from complete.
