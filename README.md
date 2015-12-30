@@ -6,7 +6,9 @@ Config SCSS Partials for Web Projects
 
 ### Colors
 
-The material color palette provides 10 variations for the following:
+---
+
+The material color palette provides 10 variations for the following colors from the [google color palette](https://www.google.com/design/spec/style/color.html#color-color-palette):
 
 - Amber
 - Blue Grey
@@ -74,3 +76,10 @@ Using partials you can import only the colors you need or all of them.
 @import 'config/color/material-color' // Imports all of the material colors
 @import 'config/color/material-color-grey' // Imports only the grey material colors
 ```
+
+---
+
+Mixins
+
+---
+
