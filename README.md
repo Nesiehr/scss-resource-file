@@ -30,6 +30,7 @@ The material color palette provides 10 variations for the following:
 
 Each of the above colors has its own partial containing predefined color variables in the following format:
 
+```scss
 $color-blue-50, $colorBlue50: #E3F2FD;
 
 $color-blue-100, $colorBlue100: #BBDEFB;
@@ -49,6 +50,7 @@ $color-blue-700, $colorBlue700: #1976D2;
 $color-blue-800, $colorBlue800: #1565C0;
 
 $color-blue-900, $colorBlue900: #0D47A1;
+```
 
 So color variables can be used with either hyphens or camel casing:
 
