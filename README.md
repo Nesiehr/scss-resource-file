@@ -1,7 +1,11 @@
 # scss-resource-file
+
 Config SCSS Partials for Web Projects
+
 ---
+
 ### Colors
+
 The material color palette provides 10 variations for the following:
 
 - Amber
