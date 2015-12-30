@@ -54,10 +54,19 @@ $color-blue-900, $colorBlue900: #0D47A1;
 
 So color variables can be used with either hyphens or camel casing:
 
-- $color-blue-50
+```scss
+$color-blue-50
+```
 
 or
 
+```scss
 - $colorBlue50
+```
 
+Using partials you can import only the colors you need or all of them.
 
+```scss
+@import 'config/color/material-color' // Imports all of the material colors
+@import 'config/color/material-color-grey' // Imports only the grey material colors
+```
