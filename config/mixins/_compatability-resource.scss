@@ -1,0 +1,48 @@
+@mixin box-sizing($format) {
+	-webkit-box-sizing: $format;
+	-moz-box-sizing: $format;
+	-ms-box-sizing: $format;
+	box-sizing: $format;
+}
+
+@mixin align-items($format) {
+	-webkit-align-items: $format;
+	-moz-align-items: $format;
+	-ms-align-items: $format;
+	align-items: $format;
+}
+
+@mixin border-radius($format) {
+	-webkit-border-radius: $format;
+	-moz-border-radius: $format;
+	-ms-border-radius: $format;
+	border-radius: $format;
+}
+
+@mixin border-top-right-radius($format) {
+	-webkit-border-top-right-radius: $format;
+	-moz-border-top-right-radius: $format;
+	-ms-border-top-right-radius: $format;
+	border-top-right-radius: $format;
+}
+
+@mixin border-top-left-radius($format) {
+	-webkit-border-top-left-radius: $format;
+	-moz-border-top-left-radius: $format;
+	-ms-border-top-left-radius: $format;
+	border-top-left-radius: $format;
+}
+
+@mixin border-bottom-right-radius($format) {
+	-webkit-border-bottom-right-radius: $format;
+	-moz-border-bottom-right-radius: $format;
+	-ms-border-bottom-right-radius: $format;
+	border-bottom-right-radius: $format;
+}
+
+@mixin border-bottom-left-radius($format) {
+	-webkit-border-bottom-left-radius: $format;
+	-moz-border-bottom-left-radius: $format;
+	-ms-border-bottom-left-radius: $format;
+	border-bottom-left-radius: $format;
+}
