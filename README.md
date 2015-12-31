@@ -34,43 +34,25 @@ Each of the above colors has its own partial containing predefined color variabl
 
 ```scss
 $color-blue-50: #E3F2FD;
-
 $color-blue-100: #BBDEFB;
-
 $color-blue-200: #90CAF9;
-
 $color-blue-300: #64B5F6;
-
 $color-blue-400: #42A5F5;
-
 $color-blue-500: #2196F3;
-
 $color-blue-600: #1E88E5;
-
 $color-blue-700: #1976D2;
-
 $color-blue-800: #1565C0;
-
 $color-blue-900: #0D47A1;
 
 $colorBlue50: $color-blue-50;
-
 $colorBlue100: $color-blue-100;
-
 $colorBlue200: $color-blue-200;
-
 $colorBlue300: $color-blue-300;
-
 $colorBlue400: $color-blue-400;
-
 $colorBlue500: $color-blue-500;
-
 $colorBlue600: $color-blue-600;
-
 $colorBlue700: $color-blue-700;
-
 $colorBlue800: $color-blue-800;
-
 $colorBlue900: $color-blue-900;
 ```
 
