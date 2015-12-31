@@ -12,6 +12,13 @@
 	align-items: $format;
 }
 
+@mixin transition-ease-in-out($type, $duration) {
+	-webkit-transition: $type $duration ease-in-out, $type $duration ease-in-out;
+	-moz-transition: $type $duration ease-in-out, $type $duration ease-in-out;
+	-ms-transition: $type $duration ease-in-out, $type $duration ease-in-out;
+	transition: $type $duration ease-in-out, $type $duration ease-in-out;
+}
+
 @mixin border-radius($format) {
 	-webkit-border-radius: $format;
 	-moz-border-radius: $format;

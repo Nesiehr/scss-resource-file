@@ -1,0 +1,78 @@
+/*
+Error: Invalid CSS after "$color-pink-50": expected ":", was ", $colorPink50:..."
+        on line 1 of E:/Windows/Documents/scss resource file/config/color/_material-color-pink.scss
+        from line 3 of E:/Windows/Documents/scss resource file/config/color/_material-color.scss
+        from line 1 of E:\Windows\Documents\scss resource file\application.scss
+
+1: $color-pink-50, $colorPink50: #FCE4EC;
+2: $color-pink-100, $colorPink100: #F8BBD0;
+3: $color-pink-200, $colorPink200: #F48FB1;
+4: $color-pink-300, $colorPink300: #F06292;
+5: $color-pink-400, $colorPink400: #EC407A;
+6: $color-pink-500, $colorPink500: #E91E63;
+
+Backtrace:
+E:/Windows/Documents/scss resource file/config/color/_material-color-pink.scss:1
+E:/Windows/Documents/scss resource file/config/color/_material-color.scss:3
+E:\Windows\Documents\scss resource file\application.scss:1
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:605:in `variable'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:299:in `to_tree'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `map'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+E:/Windows/Applications/Koala/bin/sass:18:in `load'
+E:/Windows/Applications/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$color-pink-50\": expected \":\", was \", $colorPink50:...\"\A         on line 1 of E:/Windows/Documents/scss resource file/config/color/_material-color-pink.scss\A         from line 3 of E:/Windows/Documents/scss resource file/config/color/_material-color.scss\A         from line 1 of E:\Windows\Documents\scss resource file\application.scss\A \A 1: $color-pink-50, $colorPink50: #FCE4EC;\A 2: $color-pink-100, $colorPink100: #F8BBD0;\A 3: $color-pink-200, $colorPink200: #F48FB1;\A 4: $color-pink-300, $colorPink300: #F06292;\A 5: $color-pink-400, $colorPink400: #EC407A;\A 6: $color-pink-500, $colorPink500: #E91E63;"; }
