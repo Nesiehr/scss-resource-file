@@ -1,19 +1,19 @@
 /*
-Error: Invalid CSS after "$color-pink-50": expected ":", was ", $colorPink50:..."
-        on line 1 of E:/Windows/Documents/scss resource file/config/color/_material-color-pink.scss
-        from line 3 of E:/Windows/Documents/scss resource file/config/color/_material-color.scss
+Error: Invalid CSS after "$color-purple-50": expected ":", was ", $colorPurple5..."
+        on line 1 of E:/Windows/Documents/scss resource file/config/color/_material-color-purple.scss
+        from line 4 of E:/Windows/Documents/scss resource file/config/color/_material-color.scss
         from line 1 of E:\Windows\Documents\scss resource file\application.scss
 
-1: $color-pink-50, $colorPink50: #FCE4EC;
-2: $color-pink-100, $colorPink100: #F8BBD0;
-3: $color-pink-200, $colorPink200: #F48FB1;
-4: $color-pink-300, $colorPink300: #F06292;
-5: $color-pink-400, $colorPink400: #EC407A;
-6: $color-pink-500, $colorPink500: #E91E63;
+1: $color-purple-50, $colorPurple50: #F3E5F5;
+2: $color-purple-100, $colorPurple100: #E1BEE7;
+3: $color-purple-200, $colorPurple200: #CE93D8;
+4: $color-purple-300, $colorPurple300: #BA68C8;
+5: $color-purple-400, $colorPurple400: #AB47BC;
+6: $color-purple-500, $colorPurple500: #9C27B0;
 
 Backtrace:
-E:/Windows/Documents/scss resource file/config/color/_material-color-pink.scss:1
-E:/Windows/Documents/scss resource file/config/color/_material-color.scss:3
+E:/Windows/Documents/scss resource file/config/color/_material-color-purple.scss:1
+E:/Windows/Documents/scss resource file/config/color/_material-color.scss:4
 E:\Windows\Documents\scss resource file\application.scss:1
 E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
 E:/Windows/Applications/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
@@ -75,4 +75,4 @@ E:/Windows/Applications/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"$color-pink-50\": expected \":\", was \", $colorPink50:...\"\A         on line 1 of E:/Windows/Documents/scss resource file/config/color/_material-color-pink.scss\A         from line 3 of E:/Windows/Documents/scss resource file/config/color/_material-color.scss\A         from line 1 of E:\Windows\Documents\scss resource file\application.scss\A \A 1: $color-pink-50, $colorPink50: #FCE4EC;\A 2: $color-pink-100, $colorPink100: #F8BBD0;\A 3: $color-pink-200, $colorPink200: #F48FB1;\A 4: $color-pink-300, $colorPink300: #F06292;\A 5: $color-pink-400, $colorPink400: #EC407A;\A 6: $color-pink-500, $colorPink500: #E91E63;"; }
+  content: "Error: Invalid CSS after \"$color-purple-50\": expected \":\", was \", $colorPurple5...\"\A         on line 1 of E:/Windows/Documents/scss resource file/config/color/_material-color-purple.scss\A         from line 4 of E:/Windows/Documents/scss resource file/config/color/_material-color.scss\A         from line 1 of E:\Windows\Documents\scss resource file\application.scss\A \A 1: $color-purple-50, $colorPurple50: #F3E5F5;\A 2: $color-purple-100, $colorPurple100: #E1BEE7;\A 3: $color-purple-200, $colorPurple200: #CE93D8;\A 4: $color-purple-300, $colorPurple300: #BA68C8;\A 5: $color-purple-400, $colorPurple400: #AB47BC;\A 6: $color-purple-500, $colorPurple500: #9C27B0;"; }
