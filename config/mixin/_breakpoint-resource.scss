@@ -42,5 +42,4 @@ $large-desktop-range: "#{$media} and (min-width:#{$large-desktop-container})" !d
             @media only #{$media} and (max-width: $desktop-container - 0.062) { @content; }
         }
     }
-
 }
