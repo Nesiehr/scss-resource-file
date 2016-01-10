@@ -1,4 +1,4 @@
-# Scss Resource File
+# SCSS Resource File
 
 Config SCSS Partials for Web Projects
 
@@ -117,3 +117,24 @@ div {
 ```
 
 Compatability mixins are, however, far from complete.
+
+---
+
+The breakpoint resource file lets you define styles by element for screen sizes mobile, tablet, desktop, and large desktop. For example this would auto-resize the width of this div for different window sizes.
+
+```scss
+div {
+	@include breakpoint(mobile-only) {
+        width: 100%;
+    }
+    @include breakpoint(tablet-range) {
+    	width: 95%;
+    }
+    @include breakpoint(desktop-range) {
+    	width: 90%;
+    }
+    @include breakpoint(large-desktop-range) {
+    	width: 80%;
+    }
+}
+```
